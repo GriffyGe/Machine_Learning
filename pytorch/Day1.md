@@ -28,7 +28,7 @@
 
 **查看方式：**在菜单栏搜索`设备管理器` -> 点击`显示适配器` -> 查看是否有NVIDIA显卡
 
-![Image](./Day1-step2.png)
+![Image](./Day1-step2.png =600*600)
 
 ### Step3: 查看电脑显卡驱动版本 Driver Version
 
