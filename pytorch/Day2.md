@@ -10,9 +10,9 @@
 
 编译器使用之前创建的**安装有pytorch的虚拟环境中的**python.exe
 
-<img src="./pic/Day2-1-1.png" height="400px" width="600px"/>
+<img src="./pic/Day2-1-1.png" height="350px" width="500px"/>
 
-<img src="./pic/Day2-1-2.png" height="400px" width="600px"/>
+<img src="./pic/Day2-1-2.png" height="350px" width="550px"/>
 
 
 ### 2. 在Jupyter notebook使用Pytorch
@@ -25,20 +25,20 @@
 
 2. 安装完成后，在命令行输入`jupyter notebook` -> Jupyter notebook页面将自动弹出
 
-<img src="./pic/Day2-2-1.png" height="400px" width="600px"/>
+<img src="./pic/Day2-2-1.png" height="200px" width="500px"/>
 
 
 3. 创建新文件
 
 点击`New` -> 选择创建的安装有pytorch的虚拟环境（这里就是pytorch_py38）
 
-<img src="./pic/Day2-2-2.png" height="400px" width="600px"/>
+<img src="./pic/Day2-2-2.png" height="300px" width="500px"/>
 
 4. 检测是否安装成功
 
 输入`import torch` -> 输入`torch.cuda.is_available()` -> 返回`True`，表示安装成功
 
-<img src="./pic/Day2-2-3.png" height="400px" width="600px"/>
+<img src="./pic/Day2-2-3.png" height="180px" width="600px"/>
 
 ### 3. 学习Pytorch/Package
 
@@ -60,5 +60,5 @@
 
 **具体应用**
 
-<img src="./pic/Day2-3-1.png" height="400px" width="600px"/>
+<img src="./pic/Day2-3-1.png" height="100px" width="600px"/>
 
