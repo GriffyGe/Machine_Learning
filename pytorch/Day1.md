@@ -30,7 +30,7 @@
 
 ![Image](./Day1-step2.png)
 
-<img src="./Day1-step2.png" height="240px" width="160px"/>
+<img src="./Day1-step2.png" height="400px" width="300px"/>
 
 ### Step3: 查看电脑显卡驱动版本 Driver Version
 
