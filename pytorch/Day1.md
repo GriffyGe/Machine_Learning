@@ -28,7 +28,7 @@
 
 **查看方式：**在菜单栏搜索`设备管理器` -> 点击`显示适配器` -> 查看是否有NVIDIA显卡
 
-<img src="./Day1-step2.png" height="400px" width="500px"/>
+<img src="./pic/Day1-step2.png" height="400px" width="500px"/>
 
 ### Step3: 查看电脑显卡驱动版本 Driver Version
 
@@ -36,7 +36,7 @@ CUDA toolkit的安装需要和驱动版本匹配，因此这里需要先查看�
 
 **查看方式：**按`win`键和`R`键 -> 输入`cmd`，按`Enter`键，打开命令提示符 -> 输入`nvidia-smi`（中间没有空格），查看驱动版本
 
-<img src="./Day1-step3.png" height="400px" width="700px"/>
+<img src="./pic/Day1-step3.png" height="400px" width="700px"/>
 
 ### Step4: 安装CUDA Toolkit
 
@@ -46,9 +46,9 @@ CUDA toolkit的安装需要和驱动版本匹配，因此这里需要先查看�
 
 这里选择**CUDA Toolkit 10.1 Update 2 Archive** -> 点击对应版本进入下一个页面 -> 依次选择，再下载 -> 默认安装路径`C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1` （这个路径后面需要用到）
 
-<img src="./Day1-step4-1.png" height="300px" width="600px"/>
+<img src="./pic/Day1-step4-1.png" height="300px" width="600px"/>
 
-<img src="./Day1-step4-2.png" height="400px" width="600px"/>
+<img src="./pic/Day1-step4-2.png" height="400px" width="600px"/>
 
 ### Step5: 下载cuDNN
 
@@ -56,17 +56,17 @@ CUDA toolkit的安装需要和驱动版本匹配，因此这里需要先查看�
 
   上一步安装的CUDA Toolkit为10.1，所以这里cuDNN选择v8.0.5
 
-  <img src="./Day1-step5-1.png" height="400px" width="600px"/>
+  <img src="./pic/Day1-step5-1.png" height="400px" width="600px"/>
 
 2. 解压cuDNN压缩包，将`bin`，`include`，`lib`，三个文件夹复制到CUDA toolkit安装目录下（默认安装路径：C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1）替换原有的文件夹
 
-  <img src="./Day1-step5-2.png" height="150px" width="600px"/>
+  <img src="./pic/Day1-step5-2.png" height="150px" width="600px"/>
 
 3. 确认CUDA Toolkit安装成功
   
   进入命令提示符 -> 输入`nvcc --version` 返回如下信息，表示安装成功。
 
-  <img src="./Day1-step5-3.png" height="100px" width="600px"/>
+  <img src="./pic/Day1-step5-3.png" height="100px" width="600px"/>
 
 ### Step6: 创建虚拟环境
 
@@ -96,7 +96,7 @@ CUDA toolkit的安装需要和驱动版本匹配，因此这里需要先查看�
 
 进入pytorch官网（<u>https://pytorch.org/</u>）-> 点击`Previous versions of Pytorch` -> 找到对应CUDA 10.1的conda安装命令并复制 -> 打开Anaconda Prompt -> 激活刚才创建的虚拟环境`conda activate pytorch` -> 将复制的命令粘贴过来并运行
 
-<img src="./Day1-step6.png" height="400px" width="600px"/>
+<img src="./pic/Day1-step6.png" height="400px" width="600px"/>
 
 ```
 # CUDA 10.1
@@ -107,4 +107,4 @@ conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=10
 
 在Anaconda Prompt窗口，为pytorch安装创建的虚拟环境下，输入`python` -> 进入代码模式，输入`import torch` -> 输入`torch.cuda.is_available()` -> 最终返回结果`True`表示安装成功
 
-<img src="./Day1-step7.png" height="100px" width="600px"/>
+<img src="./pic/Day1-step7.png" height="100px" width="600px"/>
