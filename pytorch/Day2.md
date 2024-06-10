@@ -4,7 +4,8 @@
 
 1. 在Pycharm中使用Pytorch
 2. 在Jupyter notebook中使用Pytorch
-3. 
+3. 如何学习Pytorch/Package
+
 
 ### 1. 在Pycharm中使用Pytorch
 
@@ -40,7 +41,7 @@
 
 <img src="./pic/Day2-2-3.png" height="180px" width="600px"/>
 
-### 3. 学习Pytorch/Package
+### 3. 如何学习Pytorch/Package
 
 - `import torch` -> 载入torch
 
@@ -53,7 +54,7 @@
 
     输出：a,b,c,...
 
-- `help()` -> 说明书（看见的东西该如何使用）
+- `help()` or `xx??` -> 说明书（看见的东西该如何使用）
     help(pytorch.3.a)
 
     输出：将此扳手放在特定的地方，然后拧动
@@ -61,4 +62,3 @@
 **具体应用**
 
 <img src="./pic/Day2-3-1.png" height="100px" width="600px"/>
-
